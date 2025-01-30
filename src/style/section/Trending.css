@@ -1,0 +1,161 @@
+#portfolio {
+  position: relative;
+}
+
+.trending {
+  display: grid;
+  overflow: hidden;
+
+  margin-top: 7rem;
+}
+
+.trending-project {
+  display: flex;
+  justify-content: space-between;
+}
+
+.trending-project__text {
+  width: 60%;
+}
+
+.trending-project__text h5 {
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 32px;
+
+  text-transform: capitalize;
+  color: #282938;
+}
+
+.trending-project__text h2 {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 60px;
+
+  text-transform: capitalize;
+  color: #282938;
+}
+
+.trending-project__button {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+
+  margin-right: rem;
+}
+
+.trending-project__button-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trending-project__button button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 5px;
+
+  background-color: #e62872;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 7px;
+}
+
+.trending-project__button button img {
+  width: 32px;
+  height: 32px;
+}
+
+.trending-project__button button a {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 10px;
+  margin-right: 2px;
+}
+
+.trending-list {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  gap: 3rem;
+
+  margin-top: 2rem;
+}
+
+.trending-list__box {
+  margin-top: 5rem;
+}
+
+.trending-list__box img {
+  width: 310px;
+  height: 230px;
+
+  /* margin-left: 1rem; */
+  border-radius: 8px;
+}
+
+.trending-text {
+  width: 77%;
+  display: grid;
+  margin-top: 5px;
+  margin-left: 2.8rem;
+  padding: 1rem;
+
+  background-color: var(--primary-color);
+  border-radius: 8px;
+}
+
+.trending-text h3 {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+
+  text-transform: capitalize;
+  color: #282938;
+}
+
+.trending-text h5 {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+  margin-top: 5px;
+
+  text-transform: capitalize;
+  color: #1c1e53;
+}
+
+.trending-text__link a {
+  margin-top: 2rem;
+}
+
+.trending-text a {
+  width: 40%;
+  height: 29px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5rem;
+  border-bottom: 1px solid #5e3bee;
+
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+
+.trending-text a img {
+  width: 16px;
+  height: 16px;
+  border: 2px #000000;
+}
